@@ -1,7 +1,8 @@
 import pymongo
+from secrets_config import MONGO_URI
 
 # 1. Connect to local MongoDB instance
-client = pymongo.MongoClient("mongodb+srv://piyush9680saini_db_user:IhTTziSM7HwEPc0h@cluster0.nrqjmwr.mongodb.net")
+client = pymongo.MongoClient(MONGO_URI)
 db = client["student_db"]
 collection = db["students"]
 
