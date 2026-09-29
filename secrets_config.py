@@ -1,1 +1,0 @@
-MONGO_URI ="mongodb+srv://piyush9680saini_db_user:IhTTziSM7HwEPc0h@cluster0.nrqjmwr.mongodb.net"
